@@ -127,7 +127,7 @@ public class RestartManager extends JavaPlugin {
 			
 			@Override
 			public void run() {
-				if (RestartManager.this.broadcastOnSecond.contains(this.count)) {
+				if (RestartManager.this.broadcastOnSecond.contains(this.count) && RestartManager.this.countdownEnabled) {
 					String countdown = RestartManager.this.countdown;
 					
 					countdown = countdown.replace("{SECONDS}", String.valueOf(this.count));
