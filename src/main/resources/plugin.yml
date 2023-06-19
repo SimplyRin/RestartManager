@@ -1,0 +1,7 @@
+main: net.simplyrin.restartmanager.RestartManager
+name: RestartManager
+version: 1.0
+authors: ["SimplyRin"]
+commands:
+  restartmanager:
+    description: "Command RestartManager"

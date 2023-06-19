@@ -1,0 +1,15 @@
+enabled: false
+time: "04:00"
+commands:
+- restart
+countdown:
+  enabled: true
+  broadcastOnSecond:
+  - 60
+  - 30
+  - 10
+  - 5
+  - 4
+  - 3
+  - 2
+  - 1
